@@ -10,7 +10,7 @@
 	
 	
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 
 
@@ -239,46 +239,15 @@
 <section class="contact">
 <div class="content_wrapper container">
 		
-		<div class="contact_wrapper">
-			<div class="left_block">
-				<h2 class="h2_head" id="contacts_block">Контакты</h2>
-				<p><i class="fas fa-map-marker-alt"></i> г. Воронеж</p>
-				<p><i class="fas fa-phone"></i><a href="tel: 8-952-956-62-36">8-952-956-62-36</a></p>
-				<p><i class="fas fa-envelope"></i><a href="mailto: zajcau@mail.ru">zajcau@mail.ru</a></p>
+	
+			<h2 class="h2_head" id="contacts_block">Контакты</h2>
+			<div class="contact_wrapper">
+				<p><span class="wrapper_icon"><i class="fas fa-map-marker-alt"></i></span> г. Воронеж</p>
+				<p><span class="wrapper_icon"><i class="fas fa-phone"></i></span><a href="tel: 8-952-956-62-36">8-952-956-62-36</a></p>
+				<p><span class="wrapper_icon"><i class="fas fa-envelope"></i></span><a href="mailto: zajcau@mail.ru">zajcau@mail.ru</a></p>
 			</div>
-			<div class="form_wrapper">
-				<h2 class="h2_head">Оставить заявку</h2>
-					<form class="request_form">
-
-						<div class="success"><span>Спасибо за заявку!</span></div>
-
-						<input type="hidden" name="project_name" value="Портфолио">
-						<input type="hidden" name="admin_email" value="zajcau@mail.ru">
-						<input type="hidden" name="form_subject" value="Письмо с сайта-портфолио">
-						
-						<div class="form-group">
-							<input type="text" name="Имя" class="form-control" placeholder="Ваше имя *" required>
-						</div>
-						<div class="form-group">
-							<input type="email" name="E-mail" class="form-control" pattern="[^@\s]+@[^@\s]+" placeholder="E-mail">
-
-						</div>
-						<div class="form-group">
-							<input type="text" name="Телефон" class="form-control" pattern="[0-9]{10,11}" placeholder="Телефон *" required>
-						</div>
-						<div class="form-group">
-							<textarea type="text" name="Комментарий" rows="5" class="form-control" placeholder="Сообщение для меня"></textarea>
-						</div>
-						<div class="form-check">
-							<input type="checkbox" class="form-check-input" id="exampleCheck2" checked>
-							<label class="form-check-label" for="exampleCheck2"><span class="required">*</span> Я согласен на обработку моих персональных данных</label>
-						</div>
-						<div class="wrapper_submite">
-							<button class="btn btn-primary button_template invert" type="submit">Отправить</button>
-						</div>
-					</form>
-			</div>
-		</div>
+			
+		
 	
 </div>
 </section>
@@ -294,17 +263,20 @@
 				<li class="menu_item"><a href="#contacts_block" class="menu_link">Контакты</a></li>
 			</ul>
 		</nav>
-		
+		<ul class="social">
+			<li><a href="https://vk.com/id29889371" class="social_link" target="_blank"><i class="fab fa-vk"></i></a></li>
+			<li><a href="https://www.instagram.com/yuliya_serova_888" class="social_link" target="_blank"><i class="fab fa-instagram"></i></a></li>
+		</ul>
 		</div>
 
 </footer>
 
-<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
 <script src="js/libs.min.js"></script>
 <script src="js/mmenu-light.js"></script>
 <script src="js/mmenu-light.polyfills.js"></script>
 <script src="js/common.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
